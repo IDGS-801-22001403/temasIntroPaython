@@ -17,10 +17,7 @@ b=int (input('ingresa el segundo numero: '))
 i=0
 salida=0
 while i<b:
-
-    i=i+a
     salida=salida+a
     i=i+1
-    print(salida)
-    pass
 
+print(f"el numero {a} x el numero {b}= {salida}")

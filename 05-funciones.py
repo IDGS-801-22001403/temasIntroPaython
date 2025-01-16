@@ -33,7 +33,9 @@ def run():
         print("3. Multiplicacion")
         print("4. Division")
         print("5. Salir")
+
         op=int(input("ingrese una opcion: "))
+
         if op==1:
             funcion1()
         elif op==2:
@@ -44,6 +46,8 @@ def run():
             funcion4()
         elif op==5:
             print("adios")
+        else:
+            print("opcion invalida")
         
     
 
