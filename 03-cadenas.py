@@ -25,3 +25,4 @@ print(texto.replace("UTL","UTEC"))
 
 cadenasSeparadas=texto.split(" ")
 print(cadenasSeparadas)
+
