@@ -25,14 +25,23 @@ def funcion4():
     res=num1 / num2
     print(f"la Division de {num1} y {num2} es {res}")
 
+menu = """
+1- suma
+2- resta
+3- multiplicacion
+4- division
+5- salir
+"""
+
 def run():
     op=0
     while op != 5:
-        print("1. suma")
-        print("2. Resta")
+        print(menu)
+        #print("1. suma")
+        """ print("2. Resta")
         print("3. Multiplicacion")
         print("4. Division")
-        print("5. Salir")
+        print("5. Salir")"""
 
         op=int(input("ingrese una opcion: "))
 
@@ -50,9 +59,6 @@ def run():
             print("opcion invalida")
         
     
-
-
-
 
 
 if __name__ == "__main__":
